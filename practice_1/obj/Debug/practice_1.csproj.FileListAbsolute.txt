@@ -1,0 +1,13 @@
+C:\Users\chaylord\source\repos\practice_1\practice_1\bin\Debug\practice_1.exe.config
+C:\Users\chaylord\source\repos\practice_1\practice_1\bin\Debug\practice_1.exe
+C:\Users\chaylord\source\repos\practice_1\practice_1\bin\Debug\practice_1.pdb
+C:\Users\chaylord\source\repos\practice_1\practice_1\obj\Debug\practice_1.csprojAssemblyReference.cache
+C:\Users\chaylord\source\repos\practice_1\practice_1\obj\Debug\practice_1.csproj.CoreCompileInputs.cache
+C:\Users\chaylord\source\repos\practice_1\practice_1\obj\Debug\practice_1.exe
+C:\Users\chaylord\source\repos\practice_1\practice_1\obj\Debug\practice_1.pdb
+C:\Users\Бек\Desktop\практика_1\practice_1\bin\Debug\practice_1.exe.config
+C:\Users\Бек\Desktop\практика_1\practice_1\bin\Debug\practice_1.exe
+C:\Users\Бек\Desktop\практика_1\practice_1\bin\Debug\practice_1.pdb
+C:\Users\Бек\Desktop\практика_1\practice_1\obj\Debug\practice_1.csprojAssemblyReference.cache
+C:\Users\Бек\Desktop\практика_1\practice_1\obj\Debug\practice_1.exe
+C:\Users\Бек\Desktop\практика_1\practice_1\obj\Debug\practice_1.pdb
