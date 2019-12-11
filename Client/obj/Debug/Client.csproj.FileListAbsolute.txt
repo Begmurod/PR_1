@@ -10,3 +10,9 @@ C:\Users\Бек\Desktop\практика_1\Client\bin\Debug\Client.pdb
 C:\Users\Бек\Desktop\практика_1\Client\obj\Debug\Client.csprojAssemblyReference.cache
 C:\Users\Бек\Desktop\практика_1\Client\obj\Debug\Client.exe
 C:\Users\Бек\Desktop\практика_1\Client\obj\Debug\Client.pdb
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\Client\bin\Debug\Client.exe.config
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\Client\bin\Debug\Client.exe
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\Client\bin\Debug\Client.pdb
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\Client\obj\Debug\Client.exe
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\Client\obj\Debug\Client.pdb

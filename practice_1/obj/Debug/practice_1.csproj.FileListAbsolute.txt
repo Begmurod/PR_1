@@ -11,3 +11,9 @@ C:\Users\Бек\Desktop\практика_1\practice_1\bin\Debug\practice_1.pdb
 C:\Users\Бек\Desktop\практика_1\practice_1\obj\Debug\practice_1.csprojAssemblyReference.cache
 C:\Users\Бек\Desktop\практика_1\practice_1\obj\Debug\practice_1.exe
 C:\Users\Бек\Desktop\практика_1\practice_1\obj\Debug\practice_1.pdb
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\practice_1\bin\Debug\practice_1.exe.config
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\practice_1\bin\Debug\practice_1.exe
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\practice_1\bin\Debug\practice_1.pdb
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\practice_1\obj\Debug\practice_1.csprojAssemblyReference.cache
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\practice_1\obj\Debug\practice_1.exe
+C:\Users\B.R.Saidmurodov\Desktop\Новая папка\practice_1\obj\Debug\practice_1.pdb

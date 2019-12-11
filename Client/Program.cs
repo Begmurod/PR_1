@@ -4,25 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Configuration;
+using System.Collections.Specialized;
+
 namespace Client
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Client client = new Client(12923, "127.0.0.1");
-            client.Start();
+            string sAttr;            // Read a particular key from the config file                     
+            sAttr = ConfigurationManager.AppSettings.Get("Key0");        
 
-            while (true)
+
             {
-                string command;
-                command = Console.ReadLine();
-                if (command == "Выход")
+                Client client = new Client(1000, "127.0.0.1");
+                client.Start();
+
+                while (true)
                 {
-                    client.Stop();
-                    break;
+                    string command;
+                    command = Console.ReadLine();
+                    if (command == "Выход")
+                    {
+                        client.Stop();
+                        break;
+                    }
                 }
             }
         }
     }
 }
+    
+

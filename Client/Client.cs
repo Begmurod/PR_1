@@ -39,11 +39,12 @@ namespace Client
             Socket.Close();
             Work = false;
         }
-
+        
         private void ProcessingSend()
         {
             try
             {
+               // Отправка: дробного значения(из диапазона 20 - 30).
                 while (Work)
                 {
                     Socket.Send(BitConverter.GetBytes(Convert.ToDouble(new Random().Next(20, 30)*0.99)));
