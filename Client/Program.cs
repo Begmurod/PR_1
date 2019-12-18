@@ -10,7 +10,7 @@ using System.Collections.Specialized;
 namespace Client
 {
     class Program
-    {
+    {//Входная фукция в котором запускается сервер
         static void Main(string[] args)
         {
             string sAttr;            // Read a particular key from the config file                     

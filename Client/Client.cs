@@ -11,37 +11,40 @@ namespace Client
 {
     class Client
     {
+        // точка подключения порта и ип адреса
         private IPEndPoint IpPoint { get; set; }
+        //Работает цикл или нет
         public bool Work { get; set; }
+        //Сокет класс через которую работает соединения 
         private Socket Socket { get; set; }
-
+        //Метод клиент конструктор заедает точку подключения порт и ип адрес
         public Client(int port, string address)
         {
             IpPoint = new IPEndPoint(IPAddress.Parse(address), port);          
         }
-
+        //Метод запускающий клиент и два потока обработки данных приема и отправки
         public void Start()
         {
             Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             Socket.Connect(IpPoint);
             Console.WriteLine(DateTime.Now +  " Соединение установленно.");
             Work = true;
-
+            //поток для оправки сообщений
             Task processingSend = new Task(ProcessingSend);
             processingSend.Start();
-
+            //поток для приема сообщений
             Task processingReceive = new Task(ProcessingReceive);
             processingReceive.Start();
         }
-
+        //метод отключащий клиент
         public void Stop()
         {
             Socket.Close();
             Work = false;
         }
-        
+        //функция для отправки сообщений
         private void ProcessingSend()
-        {
+        {// обработка ощибок
             try
             {
                // Отправка: дробного значения(из диапазона 20 - 30).
@@ -59,9 +62,9 @@ namespace Client
             }
 
         }
-
+        //фукция для потока четения сообщений
         private void ProcessingReceive()
-        {
+        {//Обработка ощибок
             try
             {
                 while (Work)

@@ -10,9 +10,9 @@ using System.Collections.Specialized;
 namespace practice_1
 {
     class Program
-    {
+    {//Входная фукция для запуска сервера
         static void Main(string[] args)
-        {
+        {//Создается 2 переменные которые ссылаются в конфиг на адреса и порта 
             string sAttr;                             
             sAttr = ConfigurationManager.AppSettings.Get("Key0");
             string sAttr2;                             
@@ -21,7 +21,8 @@ namespace practice_1
             sAll = ConfigurationManager.AppSettings;
             Server server = new Server(Convert.ToInt32(sAttr),sAttr2 );
             server.Start();
-
+         //
+         //если цикл while "правда" то выполняется действие, под 
             while (true)
             {
                 string command;
